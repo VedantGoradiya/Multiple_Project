@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import AnalogClock from "./Pages/AnalogClock/AnalogClock";
 import AutoComplete from "./Pages/AutoComplete/AutoComplete";
+import DataTable from "./Pages/DataTable/DataTable";
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Analog_Clock" element={<AnalogClock />} />
-          <Route path="Auto_Complete" element={<AutoComplete />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
+          <Route path="/Auto_Complete" element={<AutoComplete />} />
+          <Route path="/Data_Table" element={<DataTable />} />
         </Routes>
       </BrowserRouter>
     </>

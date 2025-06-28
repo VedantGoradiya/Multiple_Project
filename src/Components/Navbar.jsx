@@ -11,6 +11,7 @@ const MainNav = () => {
           <Nav className="me-auto">
             <Nav.Link href="/Analog_Clock">Analog Clock</Nav.Link>
             <Nav.Link href="/Auto_Complete">Auto Complete</Nav.Link>
+            <Nav.Link href="/Data_Table">Data Table</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
